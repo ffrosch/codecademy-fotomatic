@@ -362,6 +362,7 @@ header .button {
 
 #filters-section .content h2 {
   font-size: 2.25rem;
+  line-height: 1.6;
   font-weight: bold;
   color: white;
 }
@@ -374,17 +375,27 @@ header .button {
 }
 
 #filters-section .images-container {
+  display: flex;
   max-width: 100%;
   padding: 0 1%;
 }
 
-@media only screen and (max-width: 760px) {
+#filters-section .image-container {
+  overflow: hidden;
+}
+
+#filters-section .image-container img {
+  display: block;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 450px) {
   #filters-section {
     padding: 1.5rem 0 0 0;
   }
 
   #filters-section .content {
-    margin-bottom: 1rem;
+    margin: 0 1.5rem 1.5rem;
   }
 
   #filters-section .content h2 {
