@@ -17,6 +17,7 @@
       rel="stylesheet"
       href="./resources/css/style.css" />
     <meta charset="UTF-8" />
+    <title>Fotomatic</title>
   </head>
   <body>
     <!-- Header -->
@@ -27,11 +28,28 @@
           class="desktop logo"
           >Fotomatic</a
         >
-        <nav class="desktop">
+        <nav>
           <ul>
-            <li><a href="#">Product detail</a></li>
-            <li><a href="#">About us</a></li>
+            <li class="mobile">
+              <a href="#"><img src="./resources/images/ic-logo.svg" /></a>
+            </li>
             <li>
+              <a href="#">
+                <img
+                  class="mobile"
+                  src="./resources/images/ic-product-detail.svg" />
+                <span class="desktop">Product detail</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  class="mobile"
+                  src="./resources/images/ic-about-us.svg" />
+                <span class="desktop">About us</span></a
+              >
+            </li>
+            <li class="desktop">
               <a href="https://www.instagram.com/"
                 >Follow us
                 <img
@@ -39,22 +57,7 @@
                   src="./resources/images/instagram.png"
               /></a>
             </li>
-          </ul>
-        </nav>
-        <nav class="mobile">
-          <ul>
-            <li>
-              <a href="#"><img src="./resources/images/ic-logo.svg" /></a>
-            </li>
-            <li>
-              <a href="#"
-                ><img src="./resources/images/ic-product-detail.svg"
-              /></a>
-            </li>
-            <li>
-              <a href="#"><img src="./resources/images/ic-about-us.svg" /></a>
-            </li>
-            <li>
+            <li class="tablet mobile">
               <a
                 href="#"
                 class="button"
