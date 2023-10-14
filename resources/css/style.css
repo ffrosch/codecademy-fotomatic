@@ -172,7 +172,7 @@ header .button {
 }
 
 #sign-up-cta .content {
-  width: 25.625rem;
+  max-width: 25.625rem;
   margin-top: 2rem;
   font-family: "Roboto", sans-serif;
   font-size: 1.25rem;
@@ -243,6 +243,10 @@ header .button {
 @media only screen and (max-width: 450px) {
   #sign-up-section {
     height: 20rem;
+  }
+
+  #sign-up-cta {
+    padding: 0;
   }
 
   #sign-up-cta h1 {
